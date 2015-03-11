@@ -1,0 +1,10 @@
+<div class="four columns">
+	<ul id="menu">
+		<li{% if page.title == "Home" %} class="selected"{% endif %}><a href="{{ site.url }}"{% if page.title == "Home" %} class="selected"{% endif %}>Home</a></li>
+		<li{% if page.title == "Our Orchestra" %} class="selected"{% endif %}><a href="/about/"{% if page.title == "Our Orchestra" %} class="selected"{% endif %}>Our Orchestra</a></li>
+		<li{% if page.title == "Our Values & Mission" %} class="selected"{% endif %}><a href="/values/"{% if page.title == "Our Values & Mission" %} class="selected"{% endif %}>Our Values</a></li>
+		<li{% if page.title == "Our Next Concert" %} class="selected"{% endif %}><a href="/concert/"{% if page.title == "Our Next Concert" %} class="selected"{% endif %}>Our Next Concert</a></li>
+		<li{% if page.title == "Our Media" %} class="selected"{% endif %}><a href="/media/"{% if page.title == "Our Media" %} class="selected"{% endif %}>Our Media</a></li>
+		<li{% if page.title == "Contact Us" %} class="selected"{% endif %}><a href="/contact/"{% if page.title == "Contact Us" %} class="selected"{% endif %}>Contact Us</a></li>
+	</ul>
+</div>

@@ -1,0 +1,10 @@
+# Site settings
+title: Vanderbilt Commodore Orchestra
+email: me@keehun.com
+description: Vanderbilt Commodore Orchestra is the community orchestra for the students, faculty, staff, alumni, and friends of the Vanderbilt University community.
+baseurl: "" 
+host: 127.0.0.1
+url: "http://localhost:4000" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
